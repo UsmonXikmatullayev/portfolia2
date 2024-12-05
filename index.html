@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        white: "#FFFFFF",
+                        dark: "#0B0B0B",
+                        gray: "#D7D7D7",
+                        mativiy: "#1A1A1A",
+                        darkblue: "rgba(93, 95, 239, 1)",
+                    },
+                },
+            },
+        };
+    </script>
+</head>
+
+<body>
+    <nav class=" bg-mativiy">
+        <div class="container w-10/12 mx-auto flex items-center justify-between h-[100px]">
+            <div>
+                <img class="w-[80px] h-[60px]"
+                    src="https://avatars.mds.yandex.net/i?id=6a6b4d80ed23ba53abd4b79b2b78978200e2bab6-8251944-images-thumbs&n=13"
+                    alt="logo">
+            </div>
+            <i class="fa-solid fa-bars text-white lg:hidden"></i>
+            <div class="hidden lg:flex">
+                <ul class="hidden lg:flex items-center gap-[30px] text-white">
+                    <li>About me</li>
+                    <li>Skills</li>
+                    <li>Portfolio</li>
+                    <li><button class="w-[150px] h-[40px] rounded-[20px] bg-white text-dark">CONTACT ME</button></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="mt-[40px]">
+        <div class="flex items-center justify-between">
+            <div
+                class="w-[100%] h-[850px] bg-gray flex items-center justify-center flex-col lg:w-[50%] h-[775px] bg-gray flex items-center justify-center flex-col">
+                <div class="container w-10/12 mx-auto ">
+                    <h2 class="text-[40px] font-black text-center lg:text-[60px] font-black text-center">
+                        XIKMATULLAYEV USMON
+                    </h2>
+                    <p class="text-[40px] text-center">Front-end Developer / UI Designer</p>
+                </div>
+            </div>
+            <div class="hidden lg:block w-[50%] h-[850px] bg-dark">
+                <img class="bg-cover" src="./images/image 17.png" alt="">
+            </div>
+        </div>
+    </header>
+    <div class="bg-[url('./images/Background.png')] bg-cover">
+        <div class="container w-10/12 mx-auto flex justify-between">
+            <div class="">
+                <h2 class="text-[40px] text-white font-[600]">IT BERRIES</h2>
+                <p class="text-gray mt-[30px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, facilis.
+                    Dolore reprehenderit
+                    numquam quidem labore fuga neque vero accusamus in consequatur aliquid laudantium unde praesentium
+                    inventore, cupiditate sapiente minima iusto.
+                    Incidunt distinctio architecto reprehenderit, ratione atque voluptas provident modi fuga alias
+                    beatae iste nisi nobis quidem ut exercitationem corporis ipsum. Eius nulla dolorum voluptates, eos
+                    labore odit architecto enim consequuntur.</p>
+                <button class="w-[150px] h-[40px] bg-white mt-[30px] rounded-[20px] mb-[30px]">READ MORE</button>
+            </div>
+            <div>
+                <img class="bg-cover" src="./images/Logo ITB.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="bg-gray w-[100%] h-[2500px]">
+        <div class="container w-10/12 mx-auto">
+            <div class=" flex justify-center items-center flex-col">
+                <h2 class="mt-[80px] text-[50px] font-semibold border-4 p-[20px]">ABOUT ME</h2>
+                <p class="w-[300px] lg:w-[800PX] text-center font-[400] text-[20px] mt-[30px]">Lorem ipsum dolor sit
+                    amet consectetur adipisicing elit. Dolore ullam nulla facilis sint sit mollitia inventore ut eum
+                    optio quisquam porro Lorem ipsum dolor sit,</p>
+                <button class="w-[150px] h-[40px] bg-white mt-[40px] font-[600]">EXPLORE</button>
+            </div>
+            <img class="mx-auto mt-[70px]" src="./images/separatorBlack 1.png" alt="">
+            <div class=" lg:flex items-center justify-between mt-[160px]">
+                <div>
+                    <h2 class="text-center font-[600] text-[40px] lg:text-center font-[600] text-[30px]">DESIGN</h2>
+                    <p class="w-[100%] lg:w-[500px]">I can design the site based on your needs and suggestions. I can
+                        also design the site from scratch and consult you during the job.</p>
+                </div>
+                <div>
+                    <h2 class="text-center font-[600] text-[30px] mt-[40px] lg:text-center font-[600] text-[30px]">
+                        DEVELOPMENT</h2>
+                    <p class="w-[100%] lg:w-[500px]">I can design the site based on your needs and suggestions. I can
+                        also design the site from scratch and consult you during the job.</p>
+                </div>
+            </div>
+            <div class="flex items-center justify-center flex-col mt-[40px]">
+                <h2 class="text-center font-[600] text-[30px] mt[40px] lg:text-center font-[600] text-[30px]">
+                    MAINTENANCE</h2>
+                <p class="w-[100%] lg:w-[500px]">I can design the site based on your needs and suggestions. I can also
+                    design the site from scratch and consult you during the job.</p>
+            </div>
+            <img class="mx-auto mt-[130px]" src="./images/separatorBlack 1.png" alt="">
+            <div class="flex justify-center items-center mt-[70px]">
+                <h2 class="text-[50px] font-semibold border-4 py-[20px] px-[70px]">
+                    SKILLS
+                </h2>
+            </div>
+            <h2 class="font-bold text-[40px] mt-[40px]">
+                USING NOW:
+            </h2>
+            <div class="grid grid-cols-4 gap-[30px] mt-[50px]">
+                <div class="flex justify-center items-center flex-col">
+                    <img src="./images/Group 12 (1).svg" alt="html5">
+                    <p class="text-center">HTML5</p>
+                </div>
+                <div class="flex justify-center items-center flex-col">
+                    <img src="./images/Group 13 (1).svg" alt="css">
+                    <p class="text-center">CSS</p>
+                </div>
+                <div class="flex justify-center items-center flex-col">
+                    <img src="./images/Vector.svg" alt="sass">
+                    <p class="text-center">SASS</p>
+                </div>
+                <div class="flex justify-center items-center flex-col">
+                    <img src="./images/Group.svg" alt="JAVASCRIPT">
+                    <p class="text-center">JAVASCRIPT</p>
+                </div>
+                <div class="flex justify-center items-center flex-col">
+                    <img src="./images/Group 14.svg" alt="REACT">
+                    <p class="text-center">REACT</p>
+                </div>
+                <div class="flex justify-center items-center flex-col">
+                    <img src="./images/bootstrap-solid 1.svg" alt="BOOTSTRAP">
+                    <p class="text-center">BOOTSTRAP</p>
+                </div>
+                <div class="flex justify-center items-center flex-col">
+                    <img src="./images/git.svg" alt="GIT">
+                    <p class="text-center">GIT</p>
+                </div>
+                <div class="flex justify-center items-center flex-col">
+                    <img src="./images/figma.svg" alt="FIGMA">
+                    <p class="text-center">FIGMA</p>
+                </div>
+            </div>
+</body>
+
+</html>
